@@ -4,7 +4,7 @@ int fib_recursivo(int n);
 int main(void) {
     int n = 40;
 
-    printf("Fibonacci (%d) - Repeticao: %d\n", n, fib_iterativo(n));
+    printf("Fibonacci (%d) - Repeticao: %d\n", n, fib_repeticao(n));
     printf("Fibonacci (%d) - Recursivo: %d\n", n, fib_recursivo(n));
 
     return 0;
