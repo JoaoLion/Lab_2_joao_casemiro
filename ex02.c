@@ -53,4 +53,9 @@ Quando chamamos:
 Passamos o ENDEREÇO de memória da variável, então a função acessa diretamente a variável original usando ponteiro (*)
 Dentro da função:
     *saldo altera diretamente saldo_bancario
+
+CONCLUSÃO:
+A passagem por valor garante isolamento e proteção do dado original,
+enquanto a passagem por referência permite a modificação direta da variável,
+sendo útil quando se deseja alterar o estado fora da função.
 */
